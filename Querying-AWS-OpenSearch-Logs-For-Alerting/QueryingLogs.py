@@ -1,6 +1,7 @@
 import paramiko
 from opensearchpy import OpenSearch
 from getpass import getpass
+import datetime
 import time
 
 # Connect to AWS EC2 instance using Paramiko library
@@ -73,8 +74,9 @@ alerts = opensearch_client.search(index="alerts", size=1000)
 report_file = open("alert_report.txt", "w")
 for hit in alerts["hits"]["hits"]:
     timestamp = hit["_source"]["timestamp"]
+    formatted_timestamp = datetime.datetime.fromtimestamp(timestamp / 1000).strftime("%Y-%m-%d %H:%M:%S")
     message = hit["_source"]["message"]
-    report_file.write(f"Timestamp: {timestamp}\nMessage: {message}\n\n")
+    report_file.write(f"Timestamp: {formatted_timestamp}\nMessage: {message}\n\n")
 report_file.close()
 
 print("\nDone! Alert report file generated.")

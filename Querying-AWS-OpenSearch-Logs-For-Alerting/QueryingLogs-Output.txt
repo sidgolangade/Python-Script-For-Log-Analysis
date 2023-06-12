@@ -20,7 +20,7 @@ Done! High CPU load generated.
 
 Monitoring CPU usage and generating alerts...
 
-Current CPU usage: 81.2%
+Current CPU usage: 56.2%
 
 Generating Alert Report file...
 
