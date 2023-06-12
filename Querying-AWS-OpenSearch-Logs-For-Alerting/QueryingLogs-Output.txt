@@ -1,0 +1,27 @@
+To connect an AWS EC2 instance, please enter the below-requested details: 
+
+Enter the hostname: ec2-52-91-62-12.compute-1.amazonaws.com
+Enter the username: ec2-user
+Enter the private_key_path: /Users/siddhantgolangade/Documents/VScode Data/EC2-RHEL-Instance-KP.pem
+
+Connected to EC2 instance.
+
+To connect an AWS OpenSearch domain, please enter the below-requested details: 
+
+Enter the opensearch host: https://search-logquerydomain-gtarhxwnibqrobnjvcdblcb77y.us-east-1.es.amazonaws.com
+Enter the opensearch username: siddhant
+Enter the opensearch password: 
+
+Connected to OpenSearch.
+
+Generating High CPU load on EC2 instance...
+
+Done! High CPU load generated.
+
+Monitoring CPU usage and generating alerts...
+
+Current CPU usage: 81.2%
+
+Generating Alert Report file...
+
+Done! Alert report file generated.
