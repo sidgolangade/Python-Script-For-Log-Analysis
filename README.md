@@ -26,4 +26,4 @@ The scripts are designed to be flexible and easily extensible, allowing you to a
 Browse through the repository's folders to find specific use cases of your interest.
 
 # Contributing
-Contributions are welcome! If you have any improvements, bug fixes, or additional examples related to Monitor Logs and Generate Alerts using Python, feel free to open a pull request. Please ensure your contributions adhere to the repository's coding standards and include relevant documentation.
+Contributions are welcome! If you have any improvements, bug fixes, or additional examples related to Monitoring Logs and Generating Alerts using Python, feel free to open a pull request. Please ensure your contributions adhere to the repository's coding standards and include relevant documentation.
