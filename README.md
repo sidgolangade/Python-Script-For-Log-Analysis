@@ -1,7 +1,7 @@
 ![Python](https://img.shields.io/badge/Python-v3.11.x-FFD43B) ![RHEL](https://img.shields.io/badge/RHEL-v9.x-CC0000) ![AWS-EC2](https://img.shields.io/badge/AWS-EC2-FF9900) ![AWS-OpenSearch](https://img.shields.io/badge/AWS-OpenSearch-11009E)
 
 
-# Python-Script-To-Analyse-Logs
+# Python-Script-To-Query-Logs-For-Monitoring-and-Alerting
 
 # Description
 In this repository, you will find a collection of Python scripts that showcase various monitoring and alerting functionalities. These scripts are designed to help you monitor and track important metrics, generate alerts, and keep a close eye on your systems or services.
